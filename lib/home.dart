@@ -26,7 +26,7 @@ class _HomepageState extends State<Homepage> {
       'wikiImages',
       stalePeriod: const Duration(days: 30),
       maxNrOfCacheObjects: 500,
-      // fileService: RestrictedHttpFileService(),
+      fileService: RestrictedHttpFileService(),
     ),
   );
   ScrollController mainScrollController = ScrollController();
