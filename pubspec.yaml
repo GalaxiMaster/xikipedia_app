@@ -12,6 +12,7 @@ dependencies:
   brotli: ^0.6.0
   cached_network_image: ^3.3.1
   flutter_cache_manager: ^3.3.1
+  pool: ^1.5.2
 
 dev_dependencies:
   flutter_test:
